@@ -1,0 +1,30 @@
+.gallery_bar > * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.gallery_bar {
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+}
+
+.gallery_bar > .row {
+    display: flex;
+    overflow: -webkit-paged-x;
+}
+
+.gallery_bar > .row > .zoom {
+    border: 2px solid rgba(255, 0, 0, 0.568);
+}
+
+.gallery_bar > .control_img {
+    /* position: absolute; */
+    width: 4%;
+}
+
+.gallery_bar > .control_img:hover {
+    background-color: gray;
+    opacity: 0.7;
+}
